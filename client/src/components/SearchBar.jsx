@@ -24,7 +24,7 @@ const SearchBar = ({ onChange }) => {
   };
 
   return (
-    <>
+    <React.Fragment>
       <div className={classes.search}>
         <div className={classes.searchIcon}>
           <SearchIcon />
@@ -41,7 +41,7 @@ const SearchBar = ({ onChange }) => {
           />
         </form>
       </div>
-    </>
+    </React.Fragment>
   );
 };
 

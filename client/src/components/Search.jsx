@@ -59,7 +59,7 @@ class Search extends React.Component {
   render() {
     const { classes } = this.props;
     return (
-      <>
+      <React.Fragment>
         <ThemeProvider theme={Theme}>
           <HeaderAppBar />
           <Container
@@ -117,7 +117,7 @@ class Search extends React.Component {
             </ul>
           </div>
         </ThemeProvider>
-      </>
+      </React.Fragment>
     );
   }
 }
