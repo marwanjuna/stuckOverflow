@@ -18,7 +18,7 @@ const NotFound = () => {
   const classes = useStyles();
 
   return (
-    <>
+    <React.Fragment>
       <CssBaseline />
       <Header />
       {/* Hero unit */}
@@ -36,7 +36,7 @@ const NotFound = () => {
         </Box>
       </Container>
       {/* End footer */}
-    </>
+    </React.Fragment>
   );
 };
 
