@@ -19,28 +19,22 @@ const NotFound = () => {
 
   return (
     <React.Fragment>
-      <>
-        <CssBaseline />
-        <Header />
-        {/* Hero unit */}
-        <Container
-          maxWidth="md"
-          component="main"
-          className={classes.heroContent}
-        >
-          <h1>404 Page Not Found</h1>
-        </Container>
-        {/* End hero unit */}
-        <Container maxWidth="md" component="main">
-          <Grid container spacing={5} alignItems="flex-end"></Grid>
-        </Container>
-        {/* Footer */}
-        <Container maxWidth="md" component="footer" className={classes.footer}>
-          <Box mt={5}>
-            <Copyright />
-          </Box>
-        </Container>
-      </>
+      <CssBaseline />
+      <Header />
+      {/* Hero unit */}
+      <Container maxWidth="md" component="main" className={classes.heroContent}>
+        <h1>404 Page Not Found</h1>
+      </Container>
+      {/* End hero unit */}
+      <Container maxWidth="md" component="main">
+        <Grid container spacing={5} alignItems="flex-end"></Grid>
+      </Container>
+      {/* Footer */}
+      <Container maxWidth="md" component="footer" className={classes.footer}>
+        <Box mt={5}>
+          <Copyright />
+        </Box>
+      </Container>
       {/* End footer */}
     </React.Fragment>
   );
